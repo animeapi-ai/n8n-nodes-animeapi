@@ -2,7 +2,7 @@
 
 ## 0.1.1
 
-- Removed the **Allow Mature Output** option. AnimeAPI does not generate adult content; explicit prompts are refused and not charged.
+- Removed a deprecated option that the API ignores. AnimeAPI does not generate adult content. Explicit prompts are refused and not charged.
 
 ## 0.1.0
 
