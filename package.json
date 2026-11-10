@@ -19,7 +19,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/animeapi-ai/n8n-nodes-animeapi.git"
+		"url": "git+https://github.com/animeapi-ai/n8n-nodes-animeapi.git"
 	},
 	"bugs": {
 		"url": "https://github.com/animeapi-ai/n8n-nodes-animeapi/issues"
@@ -55,5 +55,8 @@
 	},
 	"peerDependencies": {
 		"n8n-workflow": "*"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
