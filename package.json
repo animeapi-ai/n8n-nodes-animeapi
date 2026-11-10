@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-animeapi",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "n8n community node for AnimeAPI: anime image generation at $0.003 per image, and anime video clips.",
 	"license": "MIT",
 	"homepage": "https://animeapi.ai",

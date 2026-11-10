@@ -50,7 +50,7 @@ Any orientation costs the same. Failed generations are refunded. Each item that 
 ## Usage
 
 - **Prompts** are plain English, up to 1,000 characters. With **Enhance Prompt** on (the default), the prompt is rewritten into tags for the anime model; turn it off to send your own tag list as written.
-- **Mature output is off by default** in this node (**Options → Allow Mature Output**), because workflow output usually lands in shared channels.
+- AnimeAPI does not generate adult content. Explicit prompts are refused and not charged.
 - **Keep the file, not the link.** Image and video URLs are not permanent storage. Leave **Download Image** on, or store the file in your own bucket.
 - **Errors** stop the workflow with AnimeAPI's message (bad key, empty balance, refused prompt). Temporary failures are retried once. Use the node's **On Error** setting to continue instead.
 

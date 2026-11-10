@@ -83,13 +83,6 @@ const imageFields: INodeProperties[] = [
 		displayOptions: { show: { resource: ['image'], operation: ['generate'] } },
 		options: [
 			{
-				displayName: 'Allow Mature Output',
-				name: 'allowNSFW',
-				type: 'boolean',
-				default: false,
-				description: 'Whether the anime model may return mature images. Off by default in this node.',
-			},
-			{
 				displayName: 'Binary Field',
 				name: 'binaryPropertyName',
 				type: 'string',
@@ -326,7 +319,6 @@ export class AnimeApi implements INodeType {
 								model,
 								orientation,
 								enhance: options.enhance ?? true,
-								allowNSFW: options.allowNSFW ?? false,
 							},
 						},
 						itemIndex,
